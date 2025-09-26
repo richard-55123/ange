@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Restaurant Ange - Une expérience culinaire divine</title>
+    <meta name="description"
+        content="Découvrez Restaurant Ange : une expérience culinaire divine alliant tradition et modernité, dans une ambiance chaleureuse et élégante.">
+    <meta name="keywords" content="restaurant, gastronomie, Ange, cuisine, repas, Cameroun, expérience culinaire">
+    <meta name="author" content="Restaurant Ange">
+
+    <link rel="icon" href="ange.png" type="image/png">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/Zc3hOr2uYtZzQ+3iJvwGx5xkS+xr4cV6X5uKfR2QK5Zm5X6l5Ge3rEt3URy9Bv1QYQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Ange</h1>
+            </div>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="#accueil">Accueil</a></li>
+                    <li><a href="#about">À propos</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#galerie">Galerie</a></li>
+                    <li><a href="#temoignages">Témoignages</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <section id="accueil" class="hero">
+        <div class="hero-content">
+            <h2>Bienvenue au Restaurant Ange</h2>
+            <p>Une expérience culinaire divine au cœur de la ville</p>
+            <div class="hero-buttons">
+                <a href="#menu" class="btn btn-primary">Découvrir le Menu</a>
+                <a href="#contact" class="btn btn-secondary">Réserver une table</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Défiler</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <section id="about" class="about section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2>Notre Histoire</h2>
+                <p>Découvrez l'univers du Restaurant Ange</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Une passion pour l'excellence culinaire</h3>
+                    <p>Fondé en 2010, le Restaurant Ange est rapidement devenu une référence gastronomique dans la
+                        région. Notre chef étoilé, Jean-Luc Dubois, allie tradition et innovation pour créer des plats
+                        qui éveillent les sens.</p>
+                    <p>Nous sélectionnons rigoureusement nos produits auprès de producteurs locaux, garantissant
+                        fraîcheur et qualité exceptionnelle dans chaque assiette.</p>
+                    <div class="about-features">
+                        <div class="feature">
+                            <i class="fas fa-utensils"></i>
+                            <span>Cuisine raffinée</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-wine-glass-alt"></i>
+                            <span>Cave à vin sélectionnée</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-seedling"></i>
+                            <span>Produits locaux et bio</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-frame">
+                        <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+                            alt="Intérieur du restaurant">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="menu" class="menu section-padding bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2>Notre Menu</h2>
+                <p>Découvrez nos spécialités culinaires</p>
+            </div>
+            <div class="menu-categories">
+                <button class="category-btn active" data-category="entrees">Entrées</button>
+                <button class="category-btn" data-category="plats">Plats Principaux</button>
+                <button class="category-btn" data-category="desserts">Desserts</button>
+            </div>
+            <div class="menu-items">
+                <div class="menu-category active" id="entrees">
+                    <div class="menu-item">
+                        <div class="item-image">
+                            <img src="https://images.unsplash.com/photo-1546833999-b9f581a1996d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80"
+                                alt="Tartare de saumon">
+                        </div>
+                        <div class="item-details">
+                            <h3>Tartare de Saumon Bio</h3>
+                            <p>Saumon norvégien, avocat, citron vert et aneth</p>
+                            <span class="price">1800 FCFA</span>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-image">
+                            <img src="https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+                                alt="Foie gras">
+                        </div>
+                        <div class="item-details">
+                            <h3>Foie Gras Maison</h3>
+                            <p>Accompagné de confiture de figues et pain brioché</p>
+                            <span class="price">2200 FCFA</span>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-image">
+                            <img src="https://images.unsplash.com/photo-1551183053-bf91a1d81141?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1232&q=80"
+                                alt="Salade gourmande">
+                        </div>
+                        <div class="item-details">
+                            <h3>Salade Gourmande</h3>
+                            <p>Mesclun, noix, chèvre chaud et vinaigrette au miel</p>
+                            <span class="price">1600 FCFA</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-category" id="plats">
+                    <div class="menu-item">
+                        <div class="item-image">
+                            <img src="https://images.unsplash.com/photo-1546833999-b9f581a1996d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80"
+                                alt="Filet de boeuf">
+                        </div>
+                        <div class="item-details">
+                            <h3>Filet de Boeuf Angus</h3>
+                            <p>Sauce au poivre vert, gratin dauphinois et haricots verts</p>
+                            <span class="price">3200 FCFA</span>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-image">
+                            <img src="https://images.unsplash.com/photo-1563379926898-05f4575a45d8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+                                alt="Bar de ligne">
+                        </div>
+                        <div class="item-details">
+                            <h3>Bar de Ligne Rôti</h3>
+                            <p>Légumes de saison et émulsion au citron yuzu</p>
+                            <span class="price">2800 FCFA</span>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-image">
+                            <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1081&q=80"
+                                alt="Risotto aux cèpes">
+                        </div>
+                        <div class="item-details">
+                            <h3>Risotto aux Cèpes</h3>
+                            <p>Riz carnaroli, parmesan et cèpes de saison</p>
+                            <span class="price">2400 FCFA</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-category" id="desserts">
+                    <div class="menu-item">
+                        <div class="item-image">
+                            <img src="https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1287&q=80"
+                                alt="Fondant au chocolat">
+                        </div>
+                        <div class="item-details">
+                            <h3>Fondant au Chocolat</h3>
+                            <p>Cœur coulant, glace à la vanille de Madagascar</p>
+                            <span class="price">1200 FCFA</span>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-image">
+                            <img src="https://images.unsplash.com/photo-1558312654-5d48b03d8c3a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+                                alt="Tarte tatin">
+                        </div>
+                        <div class="item-details">
+                            <h3>Tarte Tatin Revisitée</h3>
+                            <p>Pommes caramélisées et crème fouettée à la cannelle</p>
+                            <span class="price">1100 FCFA</span>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-image">
+                            <img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1287&q=80"
+                                alt="Assiette de fromages">
+                        </div>
+                        <div class="item-details">
+                            <h3>Assiette de Fromages Affinés</h3>
+                            <p>Sélection de fromages français et confiture de figues</p>
+                            <span class="price">1400 FCFA</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="galerie" class="gallery section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2>Galerie</h2>
+                <p>Quelques instants capturés au Restaurant Ange</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+                        alt="Intérieur du restaurant">
+                    <div class="gallery-overlay">
+                        <h3>Notre salle principale</h3>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1572802419224-296b0aeee0d9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1115&q=80"
+                        alt="Notre chef">
+                    <div class="gallery-overlay">
+                        <h3>Notre chef étoilé</h3>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1565299585323-38d6b0865b47?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1324&q=80"
+                        alt="Plat signature">
+                    <div class="gallery-overlay">
+                        <h3>Notre plat signature</h3>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1514933651103-005eec06c04b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1274&q=80"
+                        alt="Cave à vin">
+                    <div class="gallery-overlay">
+                        <h3>Notre cave à vin</h3>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1274&q=80"
+                        alt="Terrasse">
+                    <div class="gallery-overlay">
+                        <h3>Notre terrasse</h3>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+                        alt="Équipe">
+                    <div class="gallery-overlay">
+                        <h3>Notre équipe</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="temoignages" class="testimonials section-padding bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2>Témoignages</h2>
+                <p>Ce que nos clients disent de nous</p>
+            </div>
+            <div class="testimonials-container">
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p>"Une expérience culinaire exceptionnelle ! Chaque plat était une œuvre d'art, et le service
+                            impeccable. Nous reviendrons certainement."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Sophie Martin">
+                        <div class="author-info">
+                            <h4>Sophie Martin</h4>
+                            <span>Client fidèle</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p>"L'ambiance est chaleureuse, les plats délicieux et le personnel attentionné. Un véritable
+                            havre de paix gastronomique."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Pierre Lefebvre">
+                        <div class="author-info">
+                            <h4>Pierre Lefebvre</h4>
+                            <span>Première visite</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p>"J'ai fêté mon anniversaire au Restaurant Ange et ce fut magique. Tout était parfait, de
+                            l'accueil au dernier dessert. Merci !"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Émilie Durand">
+                        <div class="author-info">
+                            <h4>Émilie Durand</h4>
+                            <span>Célébration spéciale</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contact & Réservations</h2>
+                <p>N'hésitez pas à nous contacter pour toute demande</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Adresse</h3>
+                            <p>123 Avenue des Gourmets<br>75008 Nyalla, Cameroun</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Téléphone</h3>
+                            <p>+237 6 79 50 92 12</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>contact@restaurant-ange.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h3>Horaires</h3>
+                            <p>Lundi - Vendredi: 12h-14h30 / 19h-22h30<br>
+                                Samedi: 19h-23h<br>
+                                Dimanche: Fermé</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="reservation-form">
+                        <div class="form-group">
+                            <input type="text" placeholder="Votre nom" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Votre email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" placeholder="Votre téléphone">
+                        </div>
+                        <div class="form-group">
+                            <select required>
+                                <option value="" disabled selected>Nombre de personnes</option>
+                                <option value="1">1 personne</option>
+                                <option value="2">2 personnes</option>
+                                <option value="3">3 personnes</option>
+                                <option value="4">4 personnes</option>
+                                <option value="5">5 personnes</option>
+                                <option value="6">6 personnes</option>
+                                <option value="7">7 personnes ou plus</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <input type="date" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="time" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Message supplémentaire" rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Réserver</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Restaurant Ange</h3>
+                    <p>Une expérience culinaire divine au cœur de Paris.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-tripadvisor"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Liens rapides</h3>
+                    <ul>
+                        <li><a href="#accueil">Accueil</a></li>
+                        <li><a href="#about">À propos</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#galerie">Galerie</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Newsletter</h3>
+                    <p>Inscrivez-vous pour recevoir nos offres spéciales</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Votre email">
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Restaurant Ange. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
